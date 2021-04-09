@@ -1,0 +1,35 @@
+.description {
+    display: flex;
+    flex-direction: column;
+    padding-right: 0;
+    padding-left: 0;
+}
+.college-description {
+    font-size: 1.4rem;
+}
+
+@media (min-width: 1200px) {
+    .college-description {
+        padding-right: 20px;
+    }
+}
+@media (min-width: 575px) {
+    .information {
+        padding-top: 20px;
+    }
+}
+@media (max-width: 575px) {
+    .information {
+        .container {
+            padding: 1rem;
+        }
+    }
+    .college-description {
+        padding: 0;
+    }
+}
+@media (max-width: 480px) {
+    .college-description {
+        padding-left: 15px;
+    }
+}

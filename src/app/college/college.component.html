@@ -1,0 +1,32 @@
+<main *ngIf="college">
+    <section class="content-menu">
+        <div class="header-block">
+            <div class="info-header">
+                <div class="logo-block" *ngIf="college.photo">
+                    <img src="{{ college.photo }}" alt=""/>
+                </div>
+                <h1>{{ college?.name }}</h1>
+            </div>
+            <div>
+                <nav>
+                    <ul class="no-wrap">
+                        <li>
+                            <a [routerLink]="['']" routerLinkActive="active" i18n>About</a>
+                        </li>
+                        <li>
+                            <a [routerLink]="['courses']" routerLinkActive="active" i18n>Courses</a>
+                        </li>
+                        <li>
+                            <a [routerLink]="['teachers']" routerLinkActive="active" i18n>Teachers</a>
+                        </li>
+                        <li>
+                            <a [routerLink]="['contacts']" routerLinkActive="active" i18n>Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </section>
+    <router-outlet></router-outlet>
+
+</main>

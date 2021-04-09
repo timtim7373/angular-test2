@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="004b222ff9ef9dd4771b777950ca1d0e4cd4348a" datatype="html">
+        <source>About</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/college/college.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7eec194fdb5177fb2a2b67ddfd1a5c71a943eb9d" datatype="html">
+        <source>Courses</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/college/college.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0af4a91d71f8f086f2d094df6a9a4b19272416b5" datatype="html">
+        <source>Teachers</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/college/college.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9b475bb63675494482effde989c7f1f18c232620" datatype="html">
+        <source>Contacts</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/college/college.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="12a86919b837334fdec8efbca4efe19521788201" datatype="html">
+        <source>Our courses</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/college/courses/courses.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3439016f24ae02af31b824fdb80d8bd6fb31b50d" datatype="html">
+        <source>Our teachers</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/college/teachers/teachers.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="65dd542cb6fa736de374b8f6292fc7e6a00246f4" datatype="html">
+        <source>Our contacts</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/college/contacts/contacts.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
