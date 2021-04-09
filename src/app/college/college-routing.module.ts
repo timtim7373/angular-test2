@@ -29,8 +29,7 @@ const routes: Routes = [
   {
     path: '',
     component: CollegeComponent,
-    children: collegeRoutes,
-    pathMatch: 'full'
+    children: collegeRoutes
   }
 ];
 
